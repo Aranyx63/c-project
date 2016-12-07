@@ -1,5 +1,6 @@
 language: csharp
 solution: 1-hello-world.sln
+
 install:
   - sudo apt-get install -y gtk-sharp2
   - nuget restore 1-hello-world.sln
